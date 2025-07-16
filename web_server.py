@@ -5,8 +5,8 @@ from picozero import pico_temp_sensor, pico_led
 import machine
 import rp2
 import sys
-ssid = 'GF-Aarush'
-password = '9512478726'
+ssid = '############'
+password = '###############'
 def connect():
     #Connect to WLAN
     wlan = network.WLAN(network.STA_IF)
