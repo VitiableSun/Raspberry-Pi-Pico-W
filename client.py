@@ -8,7 +8,7 @@ import time
 # Just making our internet connection
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect('srivastava', '9512478726')
+wlan.connect('##########', '##########')
 
 # Wait for connect or fail
 max_wait = 10
@@ -27,7 +27,7 @@ else:
   #print('ip = ' + status[0])
 
 while True:
-    ai = socket.getaddrinfo('192.168.86.46', 80) # Address of Web Server
+    ai = socket.getaddrinfo('###.###.##.##', 80) # Address of Web Server
     addr = ai[0][-1]
 
     # Create a socket and make a HTTP request
